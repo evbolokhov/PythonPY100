@@ -31,7 +31,7 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: number % 10
-  - offset: 250
+  - offset: 249
     length: 4
     placeholder_text: '...)  # TODO вычисления можно производить прямо в функции print'
     initial_state:
