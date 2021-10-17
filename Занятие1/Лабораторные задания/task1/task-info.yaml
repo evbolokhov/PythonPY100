@@ -4,33 +4,33 @@ files:
   visible: true
   placeholders:
   - offset: 94
-    length: 49
+    length: 74
     placeholder_text: '...  # TODO запросить у пользователя год рождения'
     initial_state:
       length: 49
       offset: 94
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Solved
     encrypted_possible_answer: 'int(input("Год рождения: "))'
-  - offset: 163
-    length: 48
+  - offset: 188
+    length: 72
     placeholder_text: '...  # TODO запросить у пользователя текущий год'
     initial_state:
       length: 48
       offset: 163
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Solved
     encrypted_possible_answer: 'int(input("Текущий год: "))'
-  - offset: 217
-    length: 55
+  - offset: 266
+    length: 131
     placeholder_text: '# TODO посчитать и распечатать количество прожитых дней'
     initial_state:
       length: 55
       offset: 217
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Solved
     encrypted_possible_answer: |-
       days = (current_year - start_year) * DAYS_OF_YEAR
@@ -48,5 +48,7 @@ files:
   visible: false
   learner_created: false
 status: Solved
+feedback:
+  time: Sun, 17 Oct 2021 21:23:06 UTC
 record: -1
 post_submission_on_open: true

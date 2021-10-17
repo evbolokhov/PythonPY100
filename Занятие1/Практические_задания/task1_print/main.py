@@ -1,4 +1,4 @@
 if __name__ == "__main__":
-    my_variable = ...  # TODO строковая переменная Hello World
+    my_variable = "Hello word"  # TODO строковая переменная Hello World
 
-    # TODO с помощью функции print распечатать переменную my_variable
+    print(my_variable)# TODO с помощью функции print распечатать переменную my_variable

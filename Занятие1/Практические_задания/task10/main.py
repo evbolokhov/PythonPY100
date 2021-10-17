@@ -3,7 +3,7 @@ if __name__ == "__main__":
 
     d_1 = number // 100  # TODO найти число сотен
     d_2 = number // 10 % 10  # TODO найти число десятков
-    d_3 = number % 120 # TODO найти число единиц
+    d_3 = number % 120  # TODO найти число единиц
 
     list_digit = [d_1, d_2, d_3]  # TODO сформировать список чисел
     print(list_digit)

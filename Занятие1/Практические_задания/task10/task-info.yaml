@@ -19,7 +19,7 @@ files:
       length: 25
       offset: 62
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Solved
     encrypted_possible_answer: // 100
   - offset: 124
@@ -32,7 +32,7 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: '% 100 // 10'
-  - offset: 175
+  - offset: 176
     length: 25
     placeholder_text: '# TODO найти число единиц'
     initial_state:
@@ -42,7 +42,7 @@ files:
     selected: false
     status: Solved
     encrypted_possible_answer: '% 10'
-  - offset: 219
+  - offset: 220
     length: 49
     placeholder_text: '...  # TODO сформировать список чисел'
     initial_state:
@@ -52,7 +52,7 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: '[d_1, d_2, d_3]'
-  - offset: 316
+  - offset: 317
     length: 35
     placeholder_text: '...)  # TODO сумма цифр'
     initial_state:
@@ -62,7 +62,7 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: sum(list_digit))
-  - offset: 381
+  - offset: 382
     length: 40
     placeholder_text: '...)  # TODO количество цифр'
     initial_state:
@@ -72,7 +72,7 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: len(list_digit))
-  - offset: 453
+  - offset: 454
     length: 42
     placeholder_text: '...)  # TODO минимальная цифра'
     initial_state:
@@ -82,7 +82,7 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: min(list_digit))
-  - offset: 528
+  - offset: 529
     length: 43
     placeholder_text: '...)  # TODO максимальная цифра'
     initial_state:
@@ -114,5 +114,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Sat, 09 Oct 2021 13:23:54 UTC
+  time: Sun, 17 Oct 2021 21:06:39 UTC
 record: -1

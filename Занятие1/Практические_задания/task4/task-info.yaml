@@ -8,7 +8,7 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 43
+  - offset: 44
     length: 37
     placeholder_text: 'input()  # TODO заполните подсказку для функции input'
     initial_state:
@@ -18,8 +18,8 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: 'input("Введите строку Hello World: ")'
-  - offset: 116
-    length: 88
+  - offset: 83
+    length: 122
     placeholder_text: '# TODO c помощью функции print рачпечатайте значение переменной
       input_str и её тип'
     initial_state:

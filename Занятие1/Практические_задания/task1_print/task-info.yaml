@@ -7,7 +7,7 @@ files:
   visible: true
   placeholders:
   - offset: 45
-    length: 44
+    length: 53
     placeholder_text: '...  # TODO строковая переменная Hello World'
     initial_state:
       length: 44
@@ -16,14 +16,14 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: '"Hello World"'
-  - offset: 95
-    length: 65
+  - offset: 104
+    length: 83
     placeholder_text: '# TODO с помощью функции print распечатать переменную my_variable'
     initial_state:
       length: 65
       offset: 95
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Solved
     encrypted_possible_answer: print(my_variable)
   text: |
@@ -33,5 +33,7 @@ files:
         # TODO с помощью функции print распечатать переменную my_variable
   learner_created: false
 status: Solved
+feedback:
+  time: Sun, 17 Oct 2021 19:54:56 UTC
 record: -1
 post_submission_on_open: true
