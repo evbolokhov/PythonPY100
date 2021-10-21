@@ -9,7 +9,7 @@ files:
   visible: true
   placeholders:
   - offset: 63
-    length: 36
+    length: 37
     placeholder_text: '...  # TODO ввести количество страниц'
     initial_state:
       length: 37
@@ -18,7 +18,7 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: 100
-  - offset: 112
+  - offset: 113
     length: 34
     placeholder_text: '...  # TODO ввести количество строк'
     initial_state:
@@ -28,8 +28,8 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: 50
-  - offset: 159
-    length: 45
+  - offset: 160
+    length: 46
     placeholder_text: '...  # TODO ввести количество символов в строке'
     initial_state:
       length: 47
@@ -38,8 +38,8 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: 25
-  - offset: 223
-    length: 63
+  - offset: 225
+    length: 64
     placeholder_text: '...  # TODO общее количество символов в книге'
     initial_state:
       length: 45
@@ -48,7 +48,7 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: pages * lines * chars
-  - offset: 305
+  - offset: 308
     length: 64
     placeholder_text: '...  # TODO размер одной книги в байтах'
     initial_state:
@@ -58,8 +58,8 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: total_chars * BYTES_ONE_CHAR
-  - offset: 387
-    length: 49
+  - offset: 390
+    length: 50
     placeholder_text: '...  # TODO размер дискеты в байтах'
     initial_state:
       length: 35
@@ -68,7 +68,7 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: '1.44 * 1024 * 1024  # размер в байтах'
-  - offset: 448
+  - offset: 452
     length: 86
     placeholder_text: '...)  # TODO найти количество книг, которое поместится на дискете'
     initial_state:

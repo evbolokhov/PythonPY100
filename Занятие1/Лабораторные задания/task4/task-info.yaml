@@ -12,7 +12,7 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 118
+  - offset: 247
     length: 54
     placeholder_text: '# TODO Каждое из значений печатать на отдельной строке'
     initial_state:
@@ -20,7 +20,7 @@ files:
       offset: 118
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       print(sum(tuple_))
           print(len(tuple_))
@@ -36,5 +36,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 18 Oct 2021 21:08:48 UTC
 record: -1

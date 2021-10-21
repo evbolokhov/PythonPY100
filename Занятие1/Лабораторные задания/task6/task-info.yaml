@@ -8,15 +8,15 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 31
-    length: 57
+  - offset: 123
+    length: 52
     placeholder_text: '...  # TODO найти количество натуральных чисел кратных 23'
     initial_state:
       length: 57
       offset: 31
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       start = 123
           end = 9999
@@ -30,5 +30,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 18 Oct 2021 21:12:11 UTC
 record: -1
